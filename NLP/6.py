@@ -19,7 +19,7 @@ top2_euclidean = np.argsort(euclidean_dists)[:2] + 1
 top2_manhattan = np.argsort(manhattan_dists)[:2] + 1
 top2_cosine = np.argsort(-cosine_sims)[:2] + 1
 print("Euclidean:", euclidean_dists)
-print("Manhattan:", manhattan_dists)
+print("Manhattan:", manhattan_dists)    
 print("Cosine:", cosine_sims)
 print("Top 2 Euclidean:", top2_euclidean)
 print("Top 2 Manhattan:", top2_manhattan)
